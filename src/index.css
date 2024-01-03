@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgba(0, 0, 0, 0.725);
+  color: white;
+}
+ul {
+  list-style: none;
+  width: 600px;
+  margin: 20px auto;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+  font-size: 20px;
+  border-radius: 60px;
+  padding: 10px;
+  display: block;
+}
+ul li a:hover {
+  color: #1885ab;
+  background-color: #283542;
+}
+ul .active {
+  background-color: #283542;
+  color: #149eca;
+}
+aside ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 20px;
+}
+aside ul a {
+  width: 250px;
+}
+button {
+  background-color: #149eca;
+}
